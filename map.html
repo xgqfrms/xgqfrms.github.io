@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Simple Map</title>
+    <!-- RSS -->
+    <link href="https://xgqfrms.xyz/feeds/posts.rss" type="application/rss+xml" rel="alternate" title="Blog RSS"/>
+    <link href="https://xgqfrms.xyz/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="Atom Feed"/>
+    <meta name="viewport" content="initial-scale=1.0">
+    <!-- https://developers.google.com/maps/documentation/javascript/examples/map-simple?hl=zh-cn -->
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 300px;
+        witdh: 400px;
+        box-sizing: border-box;
+        border: 1px solid red;
+      }
+    </style>
+</head>
+<body>
+    <!-- <div id="map"></div> -->
+    <!-- https://goo.gl/maps/jxtojXWa5R82 -->
+    <div>
+      <a href="https://goo.gl/maps/jxtojXWa5R82">分享链接(short URL)</a>
+      <h1>嵌入地图(small)</h1>
+      <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.5378109248236!2d121.50333351456051!3d31.233531968375758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x352a1022bb7caa28!2z5LiK5rW35Lit5b-D5aSn5Y6m!5e0!3m2!1szh-CN!2s!4v1472046119878" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+	<script>
+		// var map;
+		// function initMap() {
+		// 	map = new google.maps.Map(document.getElementById('map'), {
+		// 		center: {lat: 31.233532, lng: 121.5033335,17},
+		// 		zoom: 3
+		// 	});
+		// }
+    /*
+      center: {lat: -34.397, lng: 150.644},
+      zoom: 8
+      查看坐标信息的位置：URL 31.233532,121.5033335,17
+      https://support.google.com/earth/answer/148068?hl=zh-Hans
+      打开 Google 地球。在顶部菜单栏中，点击工具 > 选项。
+      在“3D 视图”标签下的“显示纬度/经度”中，选择如何显示坐标：
+      小数度数：比如 37.7, -122.2
+      度、分、秒：比如 37 25'19.07"N, 122 05'06.24"W
+      度、十进制分：比如 37° 42' 0", -122° 0' 0"
+      通用横轴墨卡托投影：比如 10 S 055974, 4282182
+      点击确定。您会在屏幕右下角看到坐标。
+
+    */ 
+	</script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2QZ3jd435EFPwC58AFVtl-pXAMrR5d5w&callback=initMap" async defer></script> -->
+</body>
+</html>
